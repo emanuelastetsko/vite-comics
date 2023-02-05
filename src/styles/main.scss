@@ -1,1 +1,29 @@
 @import "partials/reset.scss";
+@import "partials/variables.scss";
+
+.my-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+li:hover{
+    cursor: pointer;
+    color: $blue;
+}
+
+.section{
+    background-color: $blue;
+}
+
+.footer-bottom{
+    background-color: $grey;
+}
+
+.blue{
+    color: $blue;
+}
+
+.footer-bottom button{
+    border: 1px solid $blue;
+    background-color: $grey;
+}
