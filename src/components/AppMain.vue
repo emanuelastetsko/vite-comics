@@ -17,25 +17,25 @@ export default {
         </div>
         <div class="section">
             <div class="my-container">
-                <div class="small-section">
+                <div class="my-section">
                     <img src="../assets/img/buy-comics-digital-comics.png" alt="Digital Comics">
                     <span>DIGITAL COMICS</span>
                 </div>
-                <div class="small-section">
+                <div class="my-section">
                     <img src="../assets/img/buy-comics-merchandise.png" alt="Merchandise">
                     <span>DC MERCHANDISE</span>
                 </div>
-                <div class="small-section">
+                <div class="my-section">
                     <img src="../assets/img/buy-comics-subscriptions.png" alt="Subscriptions">
                     <span>SUBSCRIPTION</span>
                 </div>
-                <div class="small-section">
+                <div class="my-section">
                     <img src="../assets/img/buy-comics-shop-locator.png" alt="Shop Locator">
                     <span>COMIC SHOP LOCATOR</span>
                 </div>
-                <div class="small-section special">
+                <div class="my-section unique">
                     <img src="../assets/img/buy-dc-power-visa.svg" alt="Power Visa" class="special">
-                    <span class="special">DC POWER VISA</span>
+                    <span>DC POWER VISA</span>
                 </div>
             </div>
         </div>
@@ -62,21 +62,18 @@ export default {
     div.my-container{
         display: flex;
         align-items: center;
+        justify-content: space-around;
 
-            div.small-section{
-                display: flex;
-                align-items: center;
-                flex-wrap: nowrap;
-    
+            div.my-section{
+                
                 img{
-                transform: scale(0.4);
-                margin: 0;
+                    width: 40px;
+                    height: 50px;
+                    margin-right: 10px;
                 }
-            }
 
-            div.special{
-                img.special{
-                transform: scale(0.65);
+                span{
+                    font-size: 0.9em;
                 }
             }
         

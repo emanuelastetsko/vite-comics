@@ -108,24 +108,26 @@ footer{
     height: auto;
 
     div.row{
+        .col-3{
+            padding: 0;
 
-        ul{
-            list-style: none;
-            padding: 10px 0;
-            
-            h6{
-                font-weight: 1000;
-                color: white;
+                ul{
+                list-style: none;
+                padding: 10px 0;
+                
+                    h6{
+                        font-weight: 1000;
+                        color: white;
+                    }
+
+                    li{
+                        color: rgba(193, 193, 193, 0.561);
+                    }
+                }
             }
-
-            li{
-                color: rgba(193, 193, 193, 0.561);
-            }
-
-
-        }
-
+        
         div.col-6.special{
+            padding: 0;
             background-image: url(../assets/img/dc-logo-bg.png);
             background-repeat: no-repeat;
             background-position: center;
