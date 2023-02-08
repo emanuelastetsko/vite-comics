@@ -10,6 +10,7 @@ export default {
 <template>
 
     <main>
+        <div class="jumbotron"></div>
         <div class="content">
             <div class="my-container">
                 <h3>-- Content goes here --</h3>
@@ -46,6 +47,11 @@ export default {
 
 <style lang="scss" scoped>
 
+.jumbotron{
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    height: 350px;
+}
 .content{
     background-color: black;
     padding: 50px 0;
