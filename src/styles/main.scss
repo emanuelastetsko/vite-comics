@@ -4,6 +4,31 @@
 .my-container{
     max-width: 80%;
     margin: 0 auto;
+
+    .label{
+        position: relative;
+
+        .label-span{
+            position: absolute;
+            top: -70px;
+            background-color: $blue;
+            color: white;
+            padding: 10px 15px;
+            font-weight: bold;
+        }
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+
+        button{
+            background-color: $blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+        }
+    }
 }
 
 li:hover{
